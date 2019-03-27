@@ -3,9 +3,14 @@ import base.CommonAPI;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.testng.Assert;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Test;
 
 public class Mainpage extends CommonAPI {
+
+
+    String url = "https://www.bbc.com/";
     @Test //test1
     public void title() {
         String title = driver.getTitle();

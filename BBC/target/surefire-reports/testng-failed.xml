@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [BBC Automation Script ]">
+  <parameter name="useCloudEnv" value="false"/>
+  <parameter name="os" value="OS X"/>
+  <parameter name="os_version" value="Sierra"/>
+  <parameter name="browserVersion" value="30.0"/>
+  <parameter name="browserName" value="chrome"/>
+  <parameter name="cloudEnvName" value="browserstack"/>
+  <parameter name="url" value="https://www.BBC.com/"/>
+  <test thread-count="5" verbose="0" name="BBC Home(failed)">
+    <classes>
+      <class name="Homepage.Mainpage">
+        <methods>
+          <include name="title"/>
+          <include name="bbcTechTwitter"/>
+          <include name="about"/>
+          <include name="usCanadaNews"/>
+          <include name="persianLanguage"/>
+          <include name="shop"/>
+          <include name="cleanUp"/>
+          <include name="capital"/>
+          <include name="tv"/>
+          <include name="localWeather"/>
+          <include name="weather"/>
+          <include name="chicagoWeather"/>
+          <include name="japaneseLanguage"/>
+          <include name="latestBusinessNews"/>
+          <include name="contact"/>
+          <include name="businessNews"/>
+          <include name="setUp"/>
+          <include name="reel"/>
+          <include name="food"/>
+          <include name="sportsCricket"/>
+          <include name="sports"/>
+          <include name="arabicLanguage"/>
+          <include name="mobileApp"/>
+          <include name="techNews"/>
+          <include name="news"/>
+          <include name="trustBBCNews"/>
+          <include name="travel"/>
+          <include name="newsAlertSignup"/>
+          <include name="nature"/>
+          <include name="twitterLink"/>
+          <include name="scienceNews"/>
+          <include name="bbcTechFacebook"/>
+          <include name="culture"/>
+          <include name="makeItDigital"/>
+          <include name="faqs"/>
+          <include name="future"/>
+        </methods>
+      </class> <!-- Homepage.Mainpage -->
+    </classes>
+  </test> <!-- BBC Home(failed) -->
+</suite> <!-- Failed suite [BBC Automation Script ] -->
